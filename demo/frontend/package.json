@@ -60,7 +60,10 @@
   },
   "lint-staged": {
     "linters": {
-      "*.js": ["eslint --fix", "git add"],
+      "*.js": [
+        "eslint --fix",
+        "git add"
+      ],
       "../backend/**/*.py": "pipenv run pylint"
     }
   }
